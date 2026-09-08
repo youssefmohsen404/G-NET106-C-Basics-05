@@ -54,8 +54,16 @@ namespace G_NET106_C_Basics_05
             /*Console.WriteLine((int)Genre.Fiction);
             Console.WriteLine((int)Genre.NonFiction);
             Console.WriteLine((int)Genre.Science);*/
-            
-            
+
+
+            #endregion
+
+            #region Qestion 6
+           // Given int genreNumber = 1;, cast it into a Genre value and print the result.
+           
+            /*int genreNumber = 1;
+            Genre genre = (Genre)genreNumber;
+            Console.WriteLine(genre);*/
             #endregion
         }
     }
