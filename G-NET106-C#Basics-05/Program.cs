@@ -26,6 +26,16 @@
             // it prints the value without errors cause the access modifier is internal so the 
             //property can be reached in the whole project
             #endregion
+
+            #region Question 3
+            //Add a public string Title; field to Book. Set it and print it from Main.
+            
+            /*Book book = new Book();
+            Console.WriteLine(book.Title);
+*/
+            //it prints the title string without errors cause the access modifier is 
+            //public so the string is reachable inside the whole project and in another project too
+            #endregion
         }
     }
 }
