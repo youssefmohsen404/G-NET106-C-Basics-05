@@ -10,6 +10,7 @@ namespace G_NET106_C_Basics_05
         // private  string password = "secret";
         //internal int copiesInStock = 5;
         //public string Title;
+        //internal Genre genre = Genre.Science;
 
     }
 }

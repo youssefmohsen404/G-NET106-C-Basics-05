@@ -1,4 +1,6 @@
-﻿namespace G_NET106_C_Basics_05
+﻿using System.Drawing;
+
+namespace G_NET106_C_Basics_05
 {
     internal class Program
     {
@@ -29,12 +31,20 @@
 
             #region Question 3
             //Add a public string Title; field to Book. Set it and print it from Main.
-            
+
             /*Book book = new Book();
             Console.WriteLine(book.Title);
 */
             //it prints the title string without errors cause the access modifier is 
             //public so the string is reachable inside the whole project and in another project too
+            #endregion
+
+            #region Question 4
+            //Declare an enum Genre { Fiction, NonFiction, Science }. Add a Genre property to Book,
+            // assign it Genre.Science, and print it.
+
+            /*Book book = new Book();
+            Console.WriteLine(book.genre);*/
             #endregion
         }
     }
